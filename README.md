@@ -1,4 +1,4 @@
-# Angular assignments - The Complete Guide (2023 Edition) (udemy)
+# Angular Assignments - The Complete Guide (2023 Edition) ([udemy](https://www.udemy.com))
 
 Assignments of the course found here: https://www.udemy.com/course/the-complete-guide-to-angular-2/
 
