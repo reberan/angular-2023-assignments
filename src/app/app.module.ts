@@ -20,6 +20,9 @@ import { Assignment6Component } from './assignment6/assignment6.component';
 import { UserFormComponent } from './assignment6/user-form/user-form.component';
 import { Assignment7Component } from './assignment7/assignment7.component';
 import { ProjectFormComponent } from './assignment7/project-form/project-form.component';
+import { Assignment8Component } from './assignment8/assignment8.component';
+import { ReversePipe } from './assignment8/reverse.pipe';
+import { SortPipe } from './assignment8/sort.pipe';
 
 @NgModule({
   declarations: [
@@ -41,6 +44,9 @@ import { ProjectFormComponent } from './assignment7/project-form/project-form.co
     UserFormComponent,
     Assignment7Component,
     ProjectFormComponent,
+    Assignment8Component,
+    ReversePipe,
+    SortPipe,
   ],
   imports: [BrowserModule, FormsModule, ReactiveFormsModule],
   providers: [],
