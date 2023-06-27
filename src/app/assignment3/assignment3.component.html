@@ -1,0 +1,11 @@
+<button class="btn btn-primary" (click)="toggleParagraph()">
+  Display Details
+</button>
+
+<p *ngIf="displayParagraph">
+  {{ paragraph }}
+</p>
+
+<p *ngFor="let log of logs" [ngClass]="{ bgBlueTextWhite: log.counter > 5 }">
+  {{ log.counter }} - {{ log.message }}
+</p>

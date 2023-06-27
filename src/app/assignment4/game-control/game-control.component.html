@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row">
+    <button class="btn btn-success" (click)="onStart()">Start</button>
+    <button class="btn btn-danger" (click)="onStop()">Stop</button>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <div *ngFor="let value of values" style="margin-top: 0.5em">
+        <app-even *ngIf="value % 2 === 0" [value]="value"></app-even>
+        <app-odd *ngIf="value % 2 === 1" [value]="value"></app-odd>
+      </div>
+    </div>
+  </div>
+</div>
